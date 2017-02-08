@@ -1,0 +1,10 @@
+apply plugin: "com.moowork.node"
+apply plugin: "base"
+
+node {
+  version = '5.8.0'
+  npmVersion = '3.8.0'
+  download = true
+}
+
+clean.delete << file('node_modules')

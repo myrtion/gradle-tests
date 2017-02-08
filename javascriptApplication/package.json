@@ -1,0 +1,14 @@
+{
+  "name": "javascriptApplication",
+  "version": "1.0.0",
+  "description": "webpack module for gradle integrated build testing",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}

@@ -1,0 +1,18 @@
+buildscript {
+  ext {
+    springBootVersion = '1.5.1.RELEASE'
+    gradleNodeVersion = '0.14'
+  }
+  repositories {
+    mavenCentral()
+    jcenter()
+  }
+  dependencies {
+    classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    classpath("com.moowork.gradle:gradle-node-plugin:${gradleNodeVersion}")
+  }
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '3.3'
+}
